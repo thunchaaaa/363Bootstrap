@@ -1,0 +1,51 @@
+.container {
+    height: 10px;
+    width: 100%;
+    position: relative;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.navbar {
+    margin: auto;
+    width: 90%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #8B4513;
+}
+.button
+{
+    align-items: center;
+    padding-top: 0%;
+    padding-left: 10%;
+}
+.button .btn.btn-secondary {
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #FFF0F5;
+}
+.button .form-control.form-control-borderless {
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #FFFAFA;
+}
+.flex-container {
+    padding-left: 1.5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    text-align: left;
+}
