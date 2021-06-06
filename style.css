@@ -26,22 +26,7 @@
     text-decoration: none;
     color: #8B4513;
 }
-.button
-{
-    align-items: center;
-    padding-top: 0%;
-    padding-left: 10%;
-}
-.button .btn.btn-secondary {
-    font-size: 5px;
-    border-radius: 8px;
-    background-color: #FFF0F5;
-}
-.button .form-control.form-control-borderless {
-    font-size: 5px;
-    border-radius: 8px;
-    background-color: #FFFAFA;
-}
+
 .flex-container {
     padding-left: 1.5%;
     display: flex;
@@ -53,7 +38,7 @@
     border:none;
     font-size:16px;
 }
-.container h1 {
+ h1 {
     text-align: center;
     color: #FF0066	;
     font-size: 55px;
@@ -63,8 +48,7 @@
 .footer{
     margin-top:25px;
     font-size:12px;
-    padding-left: 2%;
-    padding-top: 1%;
+    padding-top: 110%;
     padding-bottom: 1%;
     text-align: center;
 }
