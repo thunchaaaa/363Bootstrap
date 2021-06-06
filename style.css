@@ -9,7 +9,7 @@
 }
 .navbar {
     margin: auto;
-    width: 90%;
+    width: 100%;
     padding: 2px;
     display: flex;
     align-items: center;
@@ -33,12 +33,12 @@
     padding-left: 10%;
 }
 .button .btn.btn-secondary {
-    font-size: 15px;
+    font-size: 5px;
     border-radius: 8px;
     background-color: #FFF0F5;
 }
 .button .form-control.form-control-borderless {
-    font-size: 15px;
+    font-size: 5px;
     border-radius: 8px;
     background-color: #FFFAFA;
 }
@@ -48,4 +48,27 @@
     flex-flow: row nowrap;
     justify-content: flex-start;
     text-align: left;
+}
+.list-group-flush li {
+    border:none;
+    font-size:16px;
+}
+.container h1 {
+    text-align: center;
+    color: #FF0066	;
+    font-size: 55px;
+    padding-top: 30px;
+    padding-left: 5%;
+}
+.footer{
+    margin-top:25px;
+    font-size:12px;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.card p {
+    color: #8B4513;
 }
